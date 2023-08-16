@@ -6,9 +6,6 @@ const registrationController = require('./controllers/registrationController');
 
 const app = express();
 
-app.use(cors());
-app.use(bodyParser.json());
-
 // Connect to MongoDB
 connectDB();
 
