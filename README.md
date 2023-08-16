@@ -13,8 +13,8 @@ The Conference Registration API allows users to register for a conference, captu
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/conference-registration-api.git
-   cd conference-registration-api
+   git clone https://github.com/pascholynx/conference-web-api.git
+   cd conference-web-api
    ```
 
 2. **Install Dependencies**:
