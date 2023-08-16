@@ -49,7 +49,7 @@ The API should now be up and running!
        "otherNames": "John",
        "email": "john.doe@example.com",
        "phoneNumber": "123-456-7890",
-       "areaOfInterest": "Tech",
+       "areaOfInterest": "Backend",
        "location": {
            "type": "Point",
            "coordinates": [longitude, latitude]
