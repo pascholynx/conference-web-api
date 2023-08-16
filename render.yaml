@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - "14" 
+
+services:
+  - mongodb
+
+cache:
+  directories:
+    - "node_modules" 
+
+install:
+  - npm install 
+
+script:
+  - npm test 
+
+# If you need to set up environment variables, use the following:
+# env:
+#   - MY_ENV_VARIABLE=value
