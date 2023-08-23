@@ -19,7 +19,7 @@ const RegistrationSchema = mongoose.Schema({
  },
  areaOfInterest: {
   type: String,
-  enum: ['Frontend', 'Backend', 'DevOps', 'Mobile', 'UI/UX', 'Data Science', 'Cyber Security', 'Cloud Computing', 'Others'],
+  enum: ['Frontend', 'Sotware Development', 'Backend', 'DevOps', 'Mobile', 'UI/UX', 'Data Science', 'Cyber Security', 'Cloud Computing', 'Others'],
   required: true,
  },
  location: {
